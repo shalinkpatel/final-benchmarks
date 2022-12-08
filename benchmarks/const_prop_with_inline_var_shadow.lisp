@@ -1,9 +1,9 @@
-(define (arbitrary_operation a b c) (+ (- a b) c))
+(define (arbitrary-operation a b c) (+ (- a b) c))
 (print 
     (let ((a 2))
          (let ((b (+ a 2)))
               (let ((c (- b 3)))
-                  (arbitrary_operation a b (arbitrary_operation c (arbitrary_operation a b c) a)
+                  (arbitrary-operation a b (arbitrary-operation c (arbitrary-operation a b c) a)
               )
          )
     ))
