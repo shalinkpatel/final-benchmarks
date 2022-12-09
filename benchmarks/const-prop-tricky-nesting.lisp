@@ -1,0 +1,1 @@
+(let ((a 1)) (let ((b 2)) (let ((c false)) (do (+ a (read-num)) (- b a) (if c (+ (- b 2) (add1 a)) 2) (if (< a b) a (- b 2)) (if (< (+ (read-num) a) (- b (+ (read-num) a))) b (+ 2 5))))))

@@ -1,0 +1,1 @@
+(let ((x (read-num))) (if (< (+ x 1) 0) (print (+ x 1)) (if (< (+ x 1) 3) (print 111) (print (+ x 1)))))

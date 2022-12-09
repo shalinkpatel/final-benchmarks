@@ -1,0 +1,16 @@
+(define (f x) (+ x (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g (g x))))))))))))))))))))))))))))))))))
+(define (g x) (+ 3 15))
+(define (h x) (if (zero? x) 3 (+ (h (- x 1)) (- (f x) (f x)))))
+
+(let ((a (f 10000)))
+  (let ((b (g 10000)))
+    (let ((c (h 100000)))
+      (do
+        (print a)
+        (print b)
+        (print c)
+        (+ (+ a b) c)
+      )
+    )
+  )
+)

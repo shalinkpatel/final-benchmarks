@@ -1,0 +1,5 @@
+(define (f x) (add1 x))
+(define (g x) (sub1 x))
+(define (h x) (+ x 3))
+(define (i x) (+ x 2))
+(f (g (h (i (f (g (h (i 3))))))))

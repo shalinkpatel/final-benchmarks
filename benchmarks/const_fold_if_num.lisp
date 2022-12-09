@@ -1,0 +1,1 @@
+(let ((x 1)) (if (num? x) (print (+ x 1)) (print (- x 2))))

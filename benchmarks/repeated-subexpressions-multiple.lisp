@@ -1,0 +1,20 @@
+(let ((x (read-num))) (do 
+	(print (add1 x))
+	(print (add1 x))
+	(let ((y (read-num))) (do
+		(print (add1 x))
+		(print (add1 x))
+		(print (sub1 y))
+		(print (sub1 y))
+		(let ((z (read-num))) (do
+			(print (add1 x))
+			(print (add1 x))
+			(print (sub1 y))
+			(print (sub1 y))
+			(print (zero? z))
+			(print (zero? z))
+		))
+	))
+	(print (add1 x))
+	(print (add1 x))
+))

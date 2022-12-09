@@ -1,0 +1,5 @@
+(define (double a) (+ a a))
+(define (triple b) (+ b (+ b b)))
+(define (mul a b) (if (= a 1) b (+ b (mul (- a 1) b))))
+(define (mul-double-triple x y) (mul (double x) (triple y)))
+(print (mul-double-triple 100 100))

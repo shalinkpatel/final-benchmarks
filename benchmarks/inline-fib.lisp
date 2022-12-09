@@ -1,0 +1,12 @@
+(define (fib-0) 0)
+(define (fib-1) 1)
+(define (fib-2) (+ (fib-1) (fib-0)))
+(define (fib-3) (+ (fib-2) (fib-1)))
+(define (fib-4) (+ (fib-3) (fib-2)))
+(define (fib-5) (+ (fib-4) (fib-3)))
+(define (fib-6) (+ (fib-5) (fib-4)))
+(define (fib-7) (+ (fib-6) (fib-5)))
+(define (fib-8) (+ (fib-7) (fib-6)))
+(define (fib-9) (+ (fib-8) (fib-7)))
+
+(print (+ (fib-9) (fib-8)))

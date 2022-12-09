@@ -1,0 +1,6 @@
+(define (a x) (+ x 1))
+(define (b x) (a (+ x 2)))
+(define (c x) (b (+ x 3)))
+(define (d x) (c (+ x 4)))
+(define (e x) (d (+ x 5)))
+(print (e 1))

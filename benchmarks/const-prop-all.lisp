@@ -1,0 +1,1 @@
+(print (let ((x (+ 1 0))) (if (= x 1) (add1 (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 2)))))))))))))))) (add1 (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 (add1 (sub1 4)))))))))))))))))))

@@ -1,0 +1,10 @@
+(define (arbitrary-operation a b c) (+ (- a b) c))
+(print 
+    (let ((a 2))
+         (let ((b (+ a 2)))
+              (let ((c (- b 3)))
+                  (arbitrary-operation a b (arbitrary-operation c (arbitrary-operation a b c) a)
+              )
+         )
+    ))
+)

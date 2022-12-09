@@ -1,0 +1,11 @@
+(let ((b 2))
+(let ((a 1))
+(do 
+  (let ((a 3)) (print (+ a b)))
+  (newline)
+  (let ((b (+ a a))) (print (+ b 2)))
+  (newline)
+  (print (+ b a))
+  (newline)
+  (print (+ b (+ 2 (+ a (+ 2 (+ 1 3))))))
+)))
